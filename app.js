@@ -26,9 +26,7 @@ ratingsContainer.addEventListener("click", (e) => {
 sendBtn.addEventListener("click", (e) => {
   panel.innerHTML = `
     <i class="fas fa-heart"></i>
-    <strong 
-    justify-content: center;
-    display: block;>Thank You</strong>
+    <strong>Thank You</strong>
     <br>
     <strong>Feedback:${selectedRating}</strong>
     <p>We will use your suggestions to improve our customer service.</p>
