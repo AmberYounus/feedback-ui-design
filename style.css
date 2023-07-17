@@ -11,7 +11,7 @@ body{
     overflow: hidden;
     margin: 0;
 }
-.panel-container{
+.feedback-container{
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border-radius: 4px;
