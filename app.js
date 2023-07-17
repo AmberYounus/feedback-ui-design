@@ -1,7 +1,7 @@
 const ratings = document.querySelectorAll(".rating");
 const ratingsContainer = document.querySelector(".ratings-container");
 const sendBtn = document.querySelector("#send");
-const panel = document.querySelector("#panel");
+const feedback = document.querySelector("#feedback");
 
 let selectedRating = "Satisfied";
 ratingsContainer.addEventListener("click", (e) => {
@@ -24,7 +24,7 @@ ratingsContainer.addEventListener("click", (e) => {
 });
 
 sendBtn.addEventListener("click", (e) => {
-  panel.innerHTML = `
+  feedback.innerHTML = `
     <i class="fas fa-heart"></i>
     <strong>Thank You</strong>
     <br>
